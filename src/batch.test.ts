@@ -110,7 +110,7 @@ describe('GA4BatchHandler', () => {
 
 	describe('start/stop', () => {
 		it('should start and stop timer', async () => {
-			mock.timers.enable({ apis: ['setInterval', 'clearInterval'] });
+			mock.timers.enable({ apis: ['setInterval'] });
 			const batch = new GA4BatchHandler(client, { flushIntervalMs: 1000 });
 
 			batch.start();

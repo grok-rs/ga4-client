@@ -15,7 +15,7 @@
   "files": ["dist"],
   "scripts": {
     "build": "tsup",
-    "test": "node --import tsx --test src/**/*.test.ts",
+    "test": "node --import tsx --test src/*.test.ts",
     "lint": "biome check src",
     "typecheck": "tsc --noEmit",
     "prepublishOnly": "npm run build"
