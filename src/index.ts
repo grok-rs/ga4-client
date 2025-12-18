@@ -10,13 +10,13 @@ export { GA4 } from './types.js';
 export { generateClientId, generateSessionId, toMicros } from './utils.js';
 
 export type {
-  GA4Event,
-  GA4EventItem,
-  GA4EventParams,
-  GA4UserProperties,
-  GA4ClientOptions,
-  GA4BatchOptions,
-  GA4DebugResponse,
-  GA4ValidationMessage,
-  RetryOptions,
+	GA4Event,
+	GA4EventItem,
+	GA4EventParams,
+	GA4UserProperties,
+	GA4ClientOptions,
+	GA4BatchOptions,
+	GA4DebugResponse,
+	GA4ValidationMessage,
+	RetryOptions,
 } from './types.js';
